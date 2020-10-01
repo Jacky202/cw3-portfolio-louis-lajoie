@@ -1,0 +1,28 @@
+.btn {
+  text-transform: uppercase;
+
+  a:link {
+    color: var(--color-white)
+  }
+
+  a:visited {
+    color: var(--color-link-visited);
+  }
+
+  a:hover {
+    color: var(--color-link-hover);
+  }
+
+  a:active {
+    color: var(--color-link-active)
+  }
+
+  a:focus {
+    color: var(--color-link-focus);
+  }
+}
+
+.btn-medium {
+  padding: 12px 29px;
+  background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+}
